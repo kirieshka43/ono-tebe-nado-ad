@@ -28,11 +28,11 @@
     font-size: 18px;
 }
 
-    .header_address a {
-        text-decoration: none;
-        color: #000;
-        border-bottom: 1px solid #000;
-    }
+.header_address a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
 
 
 
@@ -61,14 +61,17 @@
 }
 
 .aligned-text {
+    font-weight: bold;
     display: block;
 }
 
 .aligned-text_center {
+    font-weight: bold;
     text-align: center;
 }
 
 .aligned-text_right {
+    font-weight: bold;
     text-align: right;
 }
 
@@ -89,6 +92,8 @@
     text-transform: uppercase;
 }
 
+
+
 .bet-button {
     border: 1px solid white;
     background: transparent;
@@ -106,6 +111,7 @@
 }
 
 .lots_heading {
+    font-weight: bold;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -183,9 +189,6 @@
     margin: 0;
 }
 
-
-
-
 .lots_look-more-link {
     font-size: 20px;
     color: #000000;
@@ -196,10 +199,6 @@
     display: inline-block;
     transition: opacity 0.3s ease;
 }
-
-
-
-
 
 .about {
     display: grid;
@@ -220,6 +219,7 @@
 }
 
 .about_title {
+    font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
     margin-top: 100px;

@@ -52,11 +52,12 @@
 
 .cover {
     position: relative;
-    padding: 0 50px 50px; /* отступ от нижней границы блока 50px */
-    min-height: 757px; /* высота overlay 757px */
+    padding: 106px 50px 50px;
+    min-height: 757px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* распределяем блоки по вертикали */
+    justify-content: space-between;
+    margin-bottom: 180px;
 }
 
 .cover_overlay {
@@ -101,28 +102,24 @@
 }
 
 .cover_description {
-    position: relative;
     z-index: 2;
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 78px;
-    margin: 0 50px;
 }
 
 .cover_description-text {
     color: white;
     font-size: 22px;
     text-transform: uppercase;
-    letter-spacing: 0;
-    word-spacing: normal;
+    padding-right: 107px;
 }
 
 .bet-button {
     border: 1px solid white;
     background: transparent;
     color: white;
-    padding: 12px 32px;
+    padding: 12px 32px 11px 31px;
     font-size: 22px;
     text-transform: uppercase;
     cursor: pointer;
@@ -133,7 +130,7 @@
 
 
 .lots {
-    padding: 180px 24px;
+    margin-bottom: 120px;
 }
 
 .lots_heading {
@@ -229,8 +226,6 @@
 .about {
     display: grid;
     grid-template-columns: 430px 1fr;
-    gap: 72px;
-    padding: 120px 50px;
     align-items: start;
 }
 
